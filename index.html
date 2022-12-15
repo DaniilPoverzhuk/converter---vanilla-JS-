@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="/js/app.js" type="module" defer></script>/ -->
+    <link rel="stylesheet" href="./scss/style.css" />
+    <title>Converter</title>
+  </head>
+  <body>
+    <div class="converter">
+      <div class="converter__inner">
+        <div class="converter__block">
+          <div class="converter__currencies">
+            <ul class="converter__currencies-list">
+              <li class="converter__currencies-item left active">RUB</li>
+              <li class="converter__currencies-item left">USD</li>
+              <li class="converter__currencies-item left">EUR</li>
+            </ul>
+          </div>
+          <div class="converter__input">
+            <input type="number" class="left" />
+          </div>
+        </div>
+        <div class="converter__block">
+          <div class="converter__currencies">
+            <ul
+              class="converter__currencies-list converter__currencies-list--left"
+            >
+              <li class="converter__currencies-item right active">RUB</li>
+              <li class="converter__currencies-item right">USD</li>
+              <li class="converter__currencies-item right">EUR</li>
+            </ul>
+          </div>
+          <div class="converter__input">
+            <input type="number" class="right" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>

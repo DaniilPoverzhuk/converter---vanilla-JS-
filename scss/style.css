@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf2ee;
+}
+
+.converter {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+.converter__inner {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.converter__currencies-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+.converter__currencies-item {
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.converter__currencies-item.active {
+  background-color: rgb(25, 181, 131);
+}
+.converter__currencies-item:hover {
+  background-color: rgba(25, 181, 131, 0.5);
+}
+.converter__input {
+  margin-top: 15px;
+  border: 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.converter__input input {
+  width: 350px;
+  height: 110px;
+  border: none;
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.converter__input input::-webkit-outer-spin-button, .converter__input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.converter__input input:focus {
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
